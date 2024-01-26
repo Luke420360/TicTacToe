@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.9.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 560 560" style="enable-background:new 0 0 560 560;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;fill:none;stroke:#F15A24;stroke-width:0.1;stroke-miterlimit:10;}
+	.st2{display:inline;fill:none;stroke:#1A1A1A;stroke-width:0.3;stroke-miterlimit:10;}
+	.st3{display:inline;fill:none;stroke:#F7931E;stroke-width:37;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#F7931E;stroke-width:32;stroke-miterlimit:10;}
+</style>
+<g id="Ebene_1">
+	<g id="Ebene_1_00000045582396661587684800000012781492116782477735_" class="st0">
+		<ellipse class="st1" cx="283.34" cy="279.56" rx="171.82" ry="174.65"/>
+		<path class="st1" d="M435.76,435.5H130.92c-0.55,0-1-0.45-1-1V124.63c0-0.55,0.45-1,1-1h304.84c0.55,0,1,0.45,1,1V434.5
+			C436.76,435.05,436.31,435.5,435.76,435.5z"/>
+		<path class="st1" d="M454.17,416.79H112.51c-0.55,0-1-0.45-1-1V143.34c0-0.55,0.45-1,1-1h341.65c0.55,0,1,0.45,1,1v272.45
+			C455.17,416.34,454.72,416.79,454.17,416.79z"/>
+		<path class="st1" d="M148.33,453.21V105.92c0-0.55,0.45-1,1-1h268.02c0.55,0,1,0.45,1,1v347.29c0,0.55-0.45,1-1,1H149.33
+			C148.78,454.21,148.33,453.76,148.33,453.21z"/>
+		<path class="st1" d="M454.16,454.21H283.34H112.52c-0.55,0-1-0.45-1-1V279.56V105.92c0-0.55,0.45-1,1-1h170.82h170.83
+			c0.55,0,1,0.45,1,1v173.64v173.65C455.16,453.76,454.71,454.21,454.16,454.21z"/>
+		<rect x="86.97" y="79.97" class="st2" width="392.74" height="399.19"/>
+	</g>
+	<g id="Ebene_3" class="st0">
+		<line class="st3" x1="148.33" y1="416.79" x2="418.35" y2="141.44"/>
+	</g>
+	<path class="st4" d="M280.46,140.45c9.54-0.12,56.84,0.26,95.87,37.81c42.16,40.57,42.15,93.21,42,101.86
+		c0.02,9.39-0.8,57.45-39,96.77c-38.66,39.8-87.04,41.24-96.18,41.34c-9.93-0.46-58.68-3.78-96.82-44.87
+		c-35.42-38.15-37.74-83.05-38-94.02c0.05-9.83,1.3-57.29,39-96.54C224.44,144.16,270.52,140.92,280.46,140.45z"/>
+</g>
+<g id="Ebene_2">
+</g>
+</svg>
