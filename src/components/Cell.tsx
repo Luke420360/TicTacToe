@@ -18,13 +18,12 @@ const Cell = ({ cellIndex, row, cell, onClick}:{ cellIndex: number, row: number,
 export default Cell
 
 const getCellValue = (cell: number) => {
-    console.log(cell);
     switch(cell) {
         case 1: return (
-            <img src={Ring} alt="O"/>
+            <img src={Cross} alt="X"/>
             );
         case 2: return (
-            <img src={Cross} alt="X"/>
+            <img src={Ring} alt="O"/>
         );
         default: null;
     }
