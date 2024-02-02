@@ -5,13 +5,15 @@ import "./styles.css"
 function App() {
 
   return (
-    <Container maxWidth="md">
+    <Container maxWidth="xl">
       <div className='text-center p-8'>
         <h1 className='fire-animation text-7xl text-pretty text-amber-600'>Tic Tac Toe</h1>
       </div>
-      <main>
-          <TTTGrid />
-      </main>
+      <div>
+        <main>
+            <TTTGrid />
+        </main>
+      </div>
     </Container>
   )
 }

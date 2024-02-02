@@ -2,6 +2,7 @@ import { Container } from "@mui/material";
 import { useState } from "react";
 import Row from "./Row";
 import WinnerScreen from "./WinnerScreen";
+import InfoText from "./InfoText";
 
 const TTTGrid = () => {
   const initialBoard = Array(3).fill(Array(3).fill(null));    
@@ -33,6 +34,7 @@ const TTTGrid = () => {
 
   return (
     <Container>
+        <InfoText xIsNext={isXNext}/>
         <WinnerScreen isOpen={winner ? true : false} onClose={onModalWinnerClose} winner={winner}/>
         {grid.map((row, index) => {
             return(
