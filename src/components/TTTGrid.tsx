@@ -25,17 +25,15 @@ const TTTGrid = () => {
     }
     if (!winner){
         const result = checkGrid(grid);
-        if (result) setWinner(result);
-    }
-
-    const onModalWinnerClose = () => {
-
+        if (result) {
+            setWinner(`${result === "Tie" ? 'Nobody' : result}`)
+        };
     }
 
   return (
     <Container>
         <InfoText xIsNext={isXNext}/>
-        <WinnerScreen isOpen={winner ? true : false} onClose={onModalWinnerClose} winner={winner}/>
+        <WinnerScreen isOpen={winner ? true : false} onClose={() => {}} winner={winner}/>
         {grid.map((row, index) => {
             return(
                 <Row key={index} rowIndex={index} row={row} onCellClick={handleCellClick} />
@@ -87,4 +85,15 @@ const checkGrid = (grid: [][]) => {
         }
     }
 
+    //Checking for a tie
+    let isTie = true;
+    for (let i = 0; i < grid.length; i++) {
+        for (let j = 0; j < grid[i].length; j++) {
+            if (grid[i][j] === null) {
+                isTie = false;
+                break;
+            }
+        }
+    }
+    if(isTie) return "Tie";
 }
